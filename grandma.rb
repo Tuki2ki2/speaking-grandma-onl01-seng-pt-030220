@@ -22,7 +22,6 @@ def speak_to_grandma(message)
 
   elsif phrase == phrase.upcase
     return "NO, NOT SINCE 1938!"
-  binding.pry      
+  binding.pry
   end
 end
-
