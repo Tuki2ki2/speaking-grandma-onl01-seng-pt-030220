@@ -14,6 +14,8 @@
 require "pry"
 phrase = "hello"
 def speak_to_grandma(phrase)
+  binding.pry
+
   if phrase != phrase.uppercase
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.uppercase
@@ -23,10 +25,5 @@ def speak_to_grandma(phrase)
   else
   return  nil
 
-
-
   end
-
-
-binding.pry
   end
