@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 require 'pry'
 phrase = "hello"
-def speak_to_grandma(message)
+def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA"
     return "I lOVE YOU TOO PUMPKIN"
 
